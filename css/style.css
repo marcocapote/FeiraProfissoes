@@ -48,29 +48,59 @@
     top: 50%;
     position: relative;
 }
-.content{
+.geral{
     display: inline;
     align-items: center;
     position: relative;
     top: 35%;
     width: 100%;
+    margin-bottom: 1%;
 
 }
-.text{
+.curso{
+    display: inline;
+    align-items: center;
+    position: relative;
+    top: 35%;
+    width: 100%;
+    margin-bottom: 150%;
+}
+.text_geral{
+    position: relative;
     display: inline-block;
     top: 10%;
     background-color: #733863;
     border-radius: 15px;
     width: 100%;
+    margin-bottom: 10%;
   
     
-
+}
+.text_curso{
+    position: relative;
+    display: inline-block;
+    top: -125px;
+    background-color: #261f1f;
+    border-radius: 15px;
+    width: 100%;
+}
+.text_curso p{
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 10%;
+}
+.text_curso h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+    font-size: 50px;
 }
 .right {
     display: inline-block;
     position: relative;
-    font-size: 25px;
-    color: black;   
+    font-size: 25px;  
     margin: 30px;
     width: 50%;
     left: 70px;
@@ -83,20 +113,16 @@
 .left{
     display: inline-block;
     position: relative;
-    font-size: 25px;
-    color: black;   
-    margin: 30px;
-    width: 50%;
+    font-size: 25px; 
+    margin: 50px;
+    width: 40%;
     left: 70px;
     top: 80px;
     color: white;
     text-align: left;
-    margin-bottom: 15%;
-}
-.text br{
     margin-bottom: 10%;
 }
-.text h1{
+.text_geral h1{
     text-align: center;
     color: white;
     position: relative;
@@ -110,6 +136,14 @@
     background-color: #733863;
     color: white;
 }
+.titulo2{
+
+    position: relative;
+    display: block;
+    background-color: #261f1f;
+    color: white;  
+}
+
 .img1{
     top: 120px;
     width: auto;
@@ -117,6 +151,15 @@
     position: relative;
     left: 30px;
     float: left;
+}
+.img2{
+    top: 50px;
+    width: auto;
+    height: 300px;
+    position: relative;
+    right: 100px;
+    float: right;
+    
 }
 #caixas{
     position: absolute;
@@ -186,7 +229,7 @@ footer{
     background-color: #1F2326;
     height: 80%;
     position: relative;
-    margin-top: 10%;
+    margin-top: 50%;
     border-color: black;
 }
 @keyframes animationum{
