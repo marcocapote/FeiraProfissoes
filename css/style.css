@@ -65,6 +65,14 @@
     width: 100%;
     margin-bottom: 150%;
 }
+.carreira{
+    display: inline;
+    align-items: center;
+    position: relative;
+    top: 35%;
+    width: 100%;
+    margin-bottom: 150%;
+}
 .text_geral{
     position: relative;
     display: inline-block;
@@ -85,10 +93,12 @@
     width: 100%;
 }
 .text_curso p{
+    display: block;
     color: white;
     font-size: 25px;
     width: 50%;
     margin-left: 10%;
+    text-align: right;
 }
 .text_curso h1{
     text-align: center;
@@ -96,6 +106,39 @@
     position: relative;
     top: 10px;
     font-size: 50px;
+    margin-bottom: 80px;
+}
+.text_curso h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    margin-bottom: 180px;
+}
+.universidades{
+    display: block;
+    color: white;
+    font-size: 25px;
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    align-items: center;
+}
+
+.listaL{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 100px;
+}
+.listaR{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    right: -200px;
 }
 .right {
     display: inline-block;
@@ -143,6 +186,13 @@
     background-color: #261f1f;
     color: white;  
 }
+.titulo3{
+    position: relative;
+    display: block;
+    background-color: #6099A6;
+    top: 200px;
+    color: white; 
+}
 
 .img1{
     top: 120px;
@@ -160,6 +210,14 @@
     right: 100px;
     float: right;
     
+}
+.img3{
+    top: 140px;
+    width: auto;
+    height: 400px;
+    position: absolute;
+    right: 60px;
+    float: right;
 }
 #caixas{
     position: absolute;
